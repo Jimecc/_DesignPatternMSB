@@ -1,6 +1,6 @@
 /**
  * @author Jim
- * @Description 加锁
+ * @Description 加 synchronized 锁（效率低）
  * @createTime 2022年08月17日
  */
 public class Mgr04 {
