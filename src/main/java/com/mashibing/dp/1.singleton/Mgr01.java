@@ -1,6 +1,6 @@
 /**
  * @author Jim
- * @Description 单例模式
+ * @Description 单例模式 直接初始化，线程安全
  * @createTime 2022年08月17日
  */
 public class Mgr01 {
