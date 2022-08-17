@@ -1,6 +1,6 @@
 /**
  * @author Jim
- * @Description 懒加载单例模式（线程不安全）
+ * @Description 懒加载单例模式（静态代码块）
  * @createTime 2022年08月17日
  */
 public class Mgr02 {
