@@ -21,6 +21,7 @@ class Child {
         return cry;
     }
 
+    // 抽象出一个类，事件类
     public void wakeup(){
         System.out.println("Wake up! wuwuwuwuwuuwuwuwuwuwu ~~~~~");
         this.cry = true;
@@ -79,5 +80,6 @@ class Dog implements Observer{
 }
 
 interface Observer{
-    void actionAwakeup();
+    void actionAwakeup(WakeUpEvent event);
 }
+
